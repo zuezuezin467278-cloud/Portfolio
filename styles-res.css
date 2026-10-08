@@ -12,6 +12,8 @@ ul{
 img{
 
     border: none;
+    max-width: 100%;
+    height:auto;
     vertical-align: top;
 }
 a.link{
