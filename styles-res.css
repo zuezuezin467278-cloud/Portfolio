@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+img{
+
+    border: none;
+    vertical-align: top;
+}
+a.link{
+    text-decoration: none;
+    color: #9999ff;
+}
+a:visited{
+    color: #ff7f7f;
+}
+a:hover{
+    color: #ff0000;
+}
+header{
+    background-color: #f0ffba;
+    width: 100%;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+h1{
+    margin: 5px 0;
+}
+.nav-menu{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+.nav-menu li{
+    margin: 0 10px;
+}
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+h3{
+    font-size: 1.8em;
+    text-align: left;
+}
+h2 img{
+    width: 100%;
+    
+    
+}
+.about{
+    background-image: url(../img/ramen_top_button.jpg);
+    background-position: center;
+    width: 100%;
+    
+    height: 400px;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.about-info {
+    width: 100%;
+    color: white;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    padding: 10px 0 ;
+}
+.about-info a{
+    text-decoration: underline;
+    color: white;
+}
+.about-info a:hover{
+    font-size: 1.1em;
+}
+.popular-items{
+    margin: 10px 0;
+}
+.popular-items h3{
+    border-bottom: 1px solid red;
+}
+.item-wrap{
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}    
+.popular-item{
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    
+}
+.popular-item img{
+    width: 60%;
+    height: 400px;
+    text-align: center;
+}
+.item-info{
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.price{
+    font-weight: bold;
+}
+.items-link{
+    padding-right: right;
+}
+.news{
+    margin:10px 0;
+}
+.news h3{
+    border-bottom: 1px solid red;
+}
+.news table{
+    width: 100%;
+}
+.news th, td{
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.news tfoot{
+    text-align: center;
+}
+.scroll-top{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 100;
+}
+footer{
+    background-color: #f0ffba;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+.sns-icons{
+    width: 100%;
+}
+.sns-icons img{
+    margin: 20px;
+    vertical-align: middle;
+}
+@media screen and (max-width: 768px){
+    header{
+        flex-direction: column;
+        padding: 10px 0;
+    }
+    .nav-menu{
+        text-align: center;
+        padding: 10px 0;
+    }
+    .nav-menu li{
+        margin: 5px 10px;
+    }
+    .about{
+        flex-direction: column;
+        height: auto;
+        min-height: 300px;
+    } */
+    /* .about-info{
+        width: 100%;
+        padding: 40px 20px;
+    }
+    .popular-item{
+        width: 100%;
+        min-width: 0;
+        margin-bottom: 20px;
+    }
+    .news table, .news thead, .news tbody, .news th, .news td, .news tr{
+        display: block;
+    }
+    .news th{
+        border-bottom: none;
+        padding: 0;
+        font-size: 0.9em;
+        color: #666;
+
+    }
+    .news td{
+        padding-top: 5px;
+
+    }
+    h3{
+        font-size: 1.5em;
+
+    }     */
+
+}
+@media screen and (max-width: 480px){
+    .nav-menu{
+        font-size: 0.9em;
+    }
+    .item-info{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
