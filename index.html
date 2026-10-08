@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI ZUE ZUE ZIN | Portfolio</title>
+    <link rel="stylesheet" href="./css/portfolio.css">
+</head>
+<body>
+
+    <!-- Ambient Backgrounds -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">My Portfolio</h1>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="home-section">
+            <div class="container home-container">
+                <div class="home-text">
+                    <p class="greeting">こんにちは。</p>
+                    <h2 class="hero-title">未来をつくる、<br>一行のコード</h2>
+                    <div class="author-name">MI ZUE ZUE ZIN</div>
+                    <p class="author-role">システムエンジニア専攻</p>
+                    <p class="description">
+                        HTML・CSS・Java・SQLを学びながら、ユーザーにとって使いやすく、見やすいWebサイト制作を目指しています。
+                    </p>
+                    <div>
+                        <a href="#projects" class="btn-primary">制作実績を見る</a>
+                    </div>
+                    <div class="tag-list">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">Java</span>
+                        <span class="tag">SQL</span>
+                    </div>
+                </div>
+
+                <div class="home-image-wrapper">
+                    <div class="profile-glow"></div>
+                    <img src="./img/profile2.jpg" alt="Profile" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <span class="badge">About Me</span>
+                    <h2>私について</h2>
+                    <p>自己紹介・基本情報</p>
+                </div>
+
+                <div class="grid-2">
+                    <div class="glass-card">
+                        <div class="card-header">
+                            <div class="icon-box">👤</div>
+                            <h3 class="card-title">自己紹介</h3>
+                        </div>
+                        <p class="card-text">
+                            ECCコンピュータ専門学校でシステムエンジニアリングを専攻しています。<br><br>
+                            現在はHTML・CSS・Java・SQLを中心に学習しており、Webサイト制作からシステム開発のバックエンド処理まで幅広く知識を深めています。
+                        </p>
+                    </div>
+
+                    <div class="glass-card">
+                        <div class="card-header">
+                            <div class="icon-box">🪪</div>
+                            <h3 class="card-title">基本情報</h3>
+                        </div>
+                        <div class="info-list">
+                            <div class="info-row"><span>名前</span><strong>MI ZUE ZUE ZIN</strong></div>
+                            <div class="info-row"><span>学校</span><strong>ECCコンピュータ専門学校</strong></div>
+                            <div class="info-row"><span>専攻</span><strong>システムエンジニア専攻</strong></div>
+                            <div class="info-row"><span>所在地</span><strong>大阪府</strong></div>
+                            <div class="info-row"><span>学習言語</span><strong class="highlight">HTML, CSS, Java, SQL</strong></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <span class="badge">Skills</span>
+                    <h2>スキル</h2>
+                    <p>現在学習している技術と熟練度</p>
+                </div>
+
+                <div class="grid-3">
+                    <div class="glass-card skill-card">
+                        <div class="skill-header">
+                            <span class="skill-icon">🌐</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <h3>HTML5</h3>
+                        <p>適切なセマンティックタグを用いたWebページの構造設計とマークアップ。</p>
+                        <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                    </div>
+
+                    <div class="glass-card skill-card">
+                        <div class="skill-header">
+                            <span class="skill-icon">🎨</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <h3>CSS3</h3>
+                        <p>Flexbox / Gridを用いたレスポンシブデザインとレイアウト実装。</p>
+                        <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                    </div>
+
+                    <div class="glass-card skill-card">
+                        <div class="skill-header">
+                            <span class="skill-icon">☕</span>
+                            <span class="skill-percent">65%</span>
+                        </div>
+                        <h3>Java</h3>
+                        <p>オブジェクト指向プログラミングの基礎とバックエンド処理の構築。</p>
+                        <div class="progress-bar"><div class="progress" style="width: 65%;"></div></div>
+                    </div>
+
+                    <div class="glass-card skill-card">
+                        <div class="skill-header">
+                            <span class="skill-icon">🗄️</span>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <h3>SQL</h3>
+                        <p>リレーショナルデータベースの操作とCRUD処理クエリの書き方。</p>
+                        <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+                    </div>
+
+                    <div class="glass-card skill-card">
+                        <div class="skill-header">
+                            <span class="skill-icon">🗣️</span>
+                            <span class="skill-percent">N2</span>
+                        </div>
+                        <h3>日本語能力</h3>
+                        <p>JLPT N2資格取得済み。日本語でのスムーズなコミュニケーション能力。</p>
+                        <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                    </div>
+
+                    <div class="glass-card skill-card">
+                        <div class="skill-header">
+                            <span class="skill-icon">🐙</span>
+                            <span class="skill-percent">60%</span>
+                        </div>
+                        <h3>Git / GitHub</h3>
+                        <p>基本的なバージョン管理とソースコードの共有管理。</p>
+                        <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <span class="badge">Projects</span>
+                    <h2>制作実績</h2>
+                    <p>実際に制作したWebサイト・システム開発プロジェクト</p>
+                </div>
+
+                <div class="grid-3">
+                    <div class="glass-card project-card">
+                        <div>
+                            <div class="card-header">
+                                <div class="project-img-box">
+                                <img src="./img/NgweLinYoneRamen.png" alt="Ngwe Lin Yone Ramen">
+                                </div>
+                                <h3 class="card-title" style="margin-bottom: 0.5rem;">Ngwe Lin Yone Ramen</h3>
+                            </div>
+                            <p class="card-text">
+                                ラーメン店の公式ウェブサイト。おすすめメニューや店舗情報案内など、視覚的にわかりやすく洗練されたレイアウトで設計されています。
+                            </p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML5</span>
+                                <span class="project-tag">CSS3</span>
+                                <span class="project-tag">Responsive</span>
+                            </div>
+                        </div>
+                        <a href="ramen.html" class="project-link">詳細を見る &rarr;</a>
+                    </div>
+                    <div class="glass-card project-card">
+                        <div>
+                            <div class="card-header">
+                                <div class="project-img-box">
+                                 <img src="./img/grand_menu.jpg" alt="ECC Pizza Website">
+                                </div>
+
+                                <h3 class="card-title" style="margin-bottom: 0.5rem;">ECC Pizza Website</h3>
+                            </div>
+                            <p class="card-text">
+                                JavaとSQLデータベースを組み合わせたピザ注文・Webアプリケーション。バックエンドのデータ連携処理を実装したWebシステムです。
+                            </p>
+                            <div class="project-tags">
+                                <span class="project-tag">Java</span>
+                                <span class="project-tag">SQL</span>
+                                <span class="project-tag">Web App</span>
+                            </div>
+                        </div>
+                        <a href="regular-menu.html" class="project-link">詳細を見る &rarr;</a>
+                    </div>
+
+            
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-title">
+                    <span class="badge">Contact</span>
+                    <h2>お問い合わせ</h2>
+                    <p>ご質問やご連絡はこちらからお願いいたします。</p>
+                </div>
+
+                <div class="grid-2">
+                    <div class="glass-card">
+                        <h3 class="card-title" style="color: #38bdf8; margin-bottom: 1.25rem;">Contact Information</h3>
+                        <div class="contact-list">
+                            <div class="contact-item">
+                                <span class="icon-circle">👤</span>
+                                <div><p class="label">Name</p><p class="val">MI ZUE ZUE ZIN</p></div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="icon-circle">📧</span>
+                                <div><p class="label">Email</p><a href="mailto:zuezuezin467278@gmail.com" class="val link">zuezuezin467278@gmail.com</a></div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="icon-circle">📍</span>
+                                <div><p class="label">Location</p><p class="val">Osaka, Japan</p></div>
+                            </div>
+                            <div class="contact-item">
+                                <span class="icon-circle">📞</span>
+                                <div><p class="label">Phone</p><p class="val">080-1234-4567</p></div>
+                            </div>
+                            <div class="info-row">
+                                <span>GitHub</span>
+                                  <a href="https://github.com/MIZUEZUEZIN" target="_blank" rel="noopener noreferrer" class="contact-link">github.com/MIZUEZUEZIN</a>
+                             </div>
+                             <div class="info-row">
+                                <span>LinkedIn</span>
+                                 <a href="https://linkedin.com/in/MIZUEZUEZIN" target="_blank" rel="noopener noreferrer" class="contact-link">linkedin.com/in/MIZUEZUEZIN</a>
+                            </div>
+                            <div class="info-row">
+                               <span>所在地</span>
+                               <strong>大阪府</strong>
+                            </div>
+                            </div>
+                        </div>
+
+                    <div class="glass-card">
+                        <h3 class="card-title" style="color: #38bdf8; margin-bottom: 1rem;">Send Message</h3>
+                        <form action="https://formspree.io/f/mzdnlzeq" method="POST" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">お名前</label>
+                                <input type="text" id="name" name="name" placeholder="お名前" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">メールアドレス</label>
+                                <input type="email" id="email" name="email" placeholder="メールアドレス" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">メッセージ本文</label>
+                                <textarea id="message" name="message" rows="4" placeholder="メッセージ内容をご記入ください..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn-submit">メッセージを送信する</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <span class="logo">MZZ</span>
+            <p>&copy; 2026 MI ZUE ZUE ZIN. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
